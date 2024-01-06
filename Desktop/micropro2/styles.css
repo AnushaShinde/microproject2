@@ -1,0 +1,359 @@
+/* styles.css */
+
+/* Resetting styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Navbar styling */
+.text-navbar {
+    background: #6F6AF7;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.project-info {
+    display: flex;
+    align-items: center;
+}
+
+.project-name {
+    font-size: 1.5em;
+    margin-right: 20px;
+    font-family: 'Delius Unicase';
+    font-weight: 700;
+    line-height: 79px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.text-navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbartag {
+    font-family: 'DM Sans';
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 47px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.text-navbar ul li {
+    margin-right: 20px;
+}
+
+.text-navbar ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Search bar styling */
+.search-bar {
+    display: flex;
+}
+
+.search-bar input {
+    padding: 5px;
+    width: 200px;
+}
+
+.search-bar button {
+    background-color: #555;
+    color: white;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+}
+
+/* Menu icon styling */
+.menu-icon {
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+/* Header styling */
+header {
+    padding: 20px;
+}
+
+/* Card section styling */
+.card-section {
+    display: flex;
+}
+
+.card {
+    position: relative;
+}
+
+.text-box-card {
+    /* Other styles for the card */
+}
+
+.text-box-card img {
+    width: 100%;
+    display: block;
+}
+
+.image-text-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: 'DM Sans';
+    font-size: 29px;
+    font-weight: 400;
+    line-height: 52px;
+    letter-spacing: 0em;
+    color: rgb(7, 7, 7);
+    text-align: left;
+    padding: 20px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+/* Four card section styling */
+.four-card-section {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+/* Individual card styling */
+.card-blue-card,
+.card-purple-card,
+.card-pink-card,
+.card-black-card {
+    width: 337px;
+    height: 145.48px;
+    border-radius: 11px;
+    box-shadow: 0px 9px 31px 0px #00000066;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-blue-card {
+    background: #929DFF;
+}
+
+.card-purple-card {
+    background: #734CF2;
+}
+
+.card-pink-card {
+    background: #D288FF;
+}
+
+.card-black-card {
+    background: #000000;
+}
+
+.card-blue-card p,
+.card-purple-card p,
+.card-pink-card p,
+.card-black-card p {
+    color: #ffffff;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 30px;
+    margin-bottom: 2px;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: 0.04em;
+    text-align: center;
+    margin: 0;
+}
+
+.last-section {
+    background: #483EFF;
+    color: white;
+    padding: 20px;
+}
+
+.blue-background {
+    display: flex;
+   
+}
+
+.content-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.button-3 {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    align-items: self-start;
+}
+
+/* General button styling */
+button {
+    display: block;
+    width:  400px; /* Increased button width */
+    height: 100px; /* Increased button height */
+    border-radius: 12px; /* Increased border-radius */
+    color: white;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px; /* Increased margin */
+    font-size: 18px; /* Increased font size */
+    cursor: pointer;
+}
+
+/* First button styling */
+.first-button {
+    background: #BCE0F6;
+    border: none;
+}
+
+/* Last two button styling */
+.second-button,
+.third-button {
+    background: #483EFF;
+    border: 2px solid white;
+}
+
+/* Add hover effect for the last two buttons */
+.second-button:hover,
+.third-button:hover {
+    background-color: #1c4966; /* Darker blue on hover */
+}
+
+.right-text {
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.info-text {
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: white;
+    color: #000000;
+    font-size: 20px;
+    font-style: normal;
+    padding: 30px; /* Increased padding */
+    border-radius: 12px; /* Increased border-radius */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Increased box shadow */
+    margin-bottom: 20px;
+    position: relative;
+    flex-grow: 1;
+}
+
+
+
+.black-next-button {
+    background-color: black;
+    color: white;
+    padding: 15px; /* Increased padding */
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    bottom: 20px; /* Adjusted bottom position */
+    right: 20px; 
+    align-items: end;
+    background-color: #333;
+}
+
+.stickyy-icon {
+    position:absolute;
+    top: 120%;
+    right: 50px;
+    transform: translateY(-50%);
+}
+
+.stickyy-icon img {
+    width: 100px; /* Adjust the width as needed */
+    height: 60px; /* Adjust the height as needed */
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); /* Optional: Add a subtle shadow */
+}
+
+/* Social media icons styling */
+.whatsapp-icon,
+.facebook-icon,
+.twitter-icon {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+/* Button-3 section styling */
+.button-3 {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.sticky-icons {
+    position: fixed;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+}
+
+.sticky-icon {
+    margin-bottom: 10px;
+}
+
+.sticky-icon img {
+    width: 80px; /* Adjust the width as needed */
+    height: 80px; /* Adjust the height as needed */
+    cursor: pointer;
+}
+
+
+/* Responsive styling for smaller screens */
+@media only screen and (max-width: 600px) {
+    .text-navbar {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .project-info,
+    .search-bar,
+    .menu-icon {
+        margin-bottom: 10px;
+    }
+
+    .text-navbar ul {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .text-navbar ul li {
+        margin-bottom: 10px;
+    }
+
+    .button-section,
+    .four-card-section {
+        flex-direction: column;
+    }
+
+    .card {
+        margin-bottom: 20px;
+    }
+
+    .right-info {
+        width: auto;
+        height: auto;
+        top: auto;
+        left: auto;
+        border-radius: 0;
+    }
+}
